@@ -9,31 +9,37 @@
     margin-top: 500px;
     position: relative;
     -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+       -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+         -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
 }
 #ipad img {
     position: absolute;
+    top: 0;
     left: 0;
     max-width: 100%;
 }
 #ipad img.front {
     top: -68px;
     -webkit-transform-origin: bottom;
-    -moz-transform-origin: bottom;
-    transform-origin: bottom;
-}
-#ipad img.middle {
-    top: 0;
+       -moz-transform-origin: bottom;
+        -ms-transform-origin: bottom;
+         -o-transform-origin: bottom;
+            transform-origin: bottom;
 }
 #ipad img.back {
     top: 25px;
     max-width: 940px;
     left: 30px;
     -webkit-transform: rotateX(90deg);
-    -moz-transform: rotateX(90deg);
-    transform: rotateX(90deg);
+       -moz-transform: rotateX(90deg);
+        -ms-transform: rotateX(90deg);
+         -o-transform: rotateX(90deg);
+            transform: rotateX(90deg);
     -webkit-transform-origin: top;
-    -moz-transform-origin: top;
-    transform-origin: top;
+       -moz-transform-origin: top;
+        -ms-transform-origin: top;
+         -o-transform-origin: top;
+            transform-origin: top;
 }
