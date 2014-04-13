@@ -20,7 +20,7 @@
     left: 0;
     max-width: 100%;
 }
-#ipad img.front {
+#ipad img.screen {
     top: -68px;
     -webkit-transform-origin: bottom;
        -moz-transform-origin: bottom;
